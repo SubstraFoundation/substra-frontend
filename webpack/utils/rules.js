@@ -1,5 +1,3 @@
-import ExtractCssChunks from 'extract-css-chunks-webpack-plugin';
-
 export default (env) => [
     {
         test: /\.jsx?$/,
@@ -35,24 +33,5 @@ export default (env) => [
     {
         test: /\.html$/,
         use: 'html-loader',
-    },
-    {
-        test: /\.s?css$/,
-        exclude: /node_modules/,
-        use: [
-            {
-                loader: ExtractCssChunks.loader,
-            },
-            {
-                loader: 'css-loader',
-                options: {
-                    importLoaders: true,
-                    sourceMap: true,
-                },
-            },
-            {
-                loader: 'sass-loader',
-            },
-        ],
     },
 ];

@@ -9,43 +9,18 @@
         "type": "git",
         "url": "https://github.com/SubstraFoundation/substra-frontend"
     },
-    "engines": {
-        "node": ">=8.4.0",
-        "npm": ">=5.3.0"
-    },
     "pre-commit": [
         "precommit-msg",
         "test",
         "eslint"
     ],
-    "dependencies": {
-        "react-json-tree": "0.11.2"
-    },
     "devDependencies": {
         "@hot-loader/react-dom": "16.11.0",
         "atob": "2.1.2",
-        "autoprefixer": "9.7.4",
         "babel-loader": "8.0.6",
-        "chalk": "3.0.0",
-        "concurrently": "5.0.2",
-        "css-loader": "3.4.2",
-        "cssnano": "4.1.10",
         "file-loader": "5.0.2",
-        "form-data": "3.0.0",
-        "gzip-size": "5.1.1",
-        "normalize.css": "8.0.1",
         "pre-commit": "1.2.2",
-        "precss": "4.0.0",
         "react-hot-loader": "4.12.19",
-        "require-universal-module": "1.5.0",
-        "rimraf": "3.0.0",
-        "sass-loader": "8.0.2",
-        "sass-variable-loader": "0.1.2",
-        "shelljs": "0.8.3",
-        "url-loader": "3.0.0",
-        "webpack-dev-server": "3.10.1",
-        "webpack-merge": "4.2.2",
-        "webpack-sources": "1.4.3",
-        "why-did-you-update": "1.0.6"
+        "require-universal-module": "1.5.0"
     }
 }

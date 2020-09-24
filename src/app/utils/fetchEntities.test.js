@@ -6,7 +6,6 @@ import {
     fetchEntitiesByPathFactory,
 } from './fetchEntities';
 
-// const FormData = require('form-data');
 
 global.API_URL = 'http://api';
 global.fetch = jest.fn();
